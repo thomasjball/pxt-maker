@@ -23,8 +23,17 @@
       "https://microsoft.github.io/ml4f/"
     ],
     "approvedRepoLib": {
-      "microsoft/pxt-jacdac": {
-        "preferred": true
+        "microsoft/pxt-jacdac": {
+          "upgrades": [ "move:jacdac/pxt-jacdac" ],
+          "hidden": true
+        },
+        "jacdac/pxt-jacdac": {
+          "preferred": true,
+          "simx": {
+              "sha": "0cd760f1d1575b8dcd8ec8abcbb780fc10ec6937",
+              "devUrl": "https://jacdac.github.io/jacdac-docs/tools/makecode-sim/"
+          }
+        }
       },
       "microsoft/pxt-ml4f": {},
       "adafruit/pxt-crickit": {
